@@ -1,8 +1,7 @@
 **Description**  
-An encoder/decoder (in C) should be implemented that takes an input file with different words.  
-The program maps the input file into memory and starts several processes that will apply a random permutation to each word.  
-The permutations will be written to an output file. The program can receive as an argument only the input file, in which case it will encrypt the words;  
-or it can receive a file containing the encrypted words and the permutations used for encryption, in which case it will generate an output file with the decrypted words.  
+The project implements an encryptor/decryptor in C to process an input file containing words.  
+The program maps the file into memory and utilizes multiple processes to apply random permutations to each word, storing the results in an output file.  
+It can either encrypt words when provided with only the input file or decrypt them when supplied with an encrypted file and the corresponding permutations.    
 
 
 **Used Concepts**   
