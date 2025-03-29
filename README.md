@@ -5,7 +5,7 @@ The permutations will be written to an output file. The program can receive as a
 or it can receive a file containing the encrypted words and the permutations used for encryption, in which case it will generate an output file with the decrypted words.  
 
 
-**Used Concepts**
+**Used Concepts**   
 1)Processes (fork, wait, etc.)  
-2)Shared memory (shm_open, ftruncate, mmap)  
-3)Synchronization  
+2)Shared memory (shm_open, ftruncate, mmap etc.)      
+3)Synchronization     
